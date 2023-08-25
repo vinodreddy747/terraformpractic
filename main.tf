@@ -16,3 +16,4 @@ resource "aws_subnet" "subnet_id" {
     Name = var.aws_subnet_names[count.index]
   }
 }
+
