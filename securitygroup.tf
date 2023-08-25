@@ -28,5 +28,5 @@ resource "aws_security_group_rule" "annu_rules" {
   from_port         = var.aws_annu_sgp_config.rules[count.index].from_port
   to_port           = var.aws_annu_sgp_config.rules[count.index].to_port
   protocol          = var.aws_annu_sgp_config.rules[count.index].protocol
-  cidr_blocks        = [var.aws_annu_sgp_config.rules[count.index].cidr_block]
+  cidr_blocks       = [var.aws_annu_sgp_config.rules[count.index].cidr_block]
 }
