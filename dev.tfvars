@@ -1,3 +1,5 @@
+
+
 aws_vinod_sgp_config = {
   name        = "vinodsgp"
   description = "this is vinodspg "
@@ -60,3 +62,6 @@ aws_annu_sgp_config = {
 
   ]
 }
+
+subnet_avz      = ["af-south-1a", "af-south-1b", "af-south-1a", "af-south-1b", "af-south-1a", "af-south-1b"]
+db_subnet_names = ["annu1"]
